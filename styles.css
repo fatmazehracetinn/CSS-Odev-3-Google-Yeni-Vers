@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+header {
+  padding: 10px;
+  overflow: hidden;
+}
+
+header > nav > ul:first-child {
+  display: flex;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  float: left;
+}
+
+header > nav > ul:first-child > li {
+  margin-right: 10px;
+}
+
+header > nav > ul:last-child {
+  display: flex;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  float: right;
+}
+
+header > nav > ul:last-child > li {
+  margin-right: 10px;
+}
+header > nav > ul:last-child > li:last-child {
+  background-color: blue;
+  padding: 5px;
+}
+header > nav > ul:last-child > li:last-child > a {
+  color: white;
+}
+
+.logo {
+  width: 250px;
+  margin: 150px auto 0 auto;
+}
+
+.logo > img {
+  width: 100%;
+}
+
+section > .search-box {
+  text-align: center;
+}
+
+section > .search-box > input {
+  width: 40%;
+  margin: 0 auto;
+  padding: 10px;
+  border: solid 2px #f1f1f1;
+  border-radius: 100px;
+}
+
+section > .search-box > button {
+  position: relative;
+  margin: 0 auto;
+  padding: 10px;
+  border: solid 2px #f1f1f1;
+  border-radius: 5px;
+  color: #999;
+  font-weight: 600;
+}
+
+footer {
+  position: fixed;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: #f1f1f1;
+  padding: 10px;
+  overflow: hidden;
+}
+
+footer > nav > ul:first-child {
+  display: flex;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  float: left;
+}
+
+footer > nav > ul:first-child > li {
+  margin-right: 10px;
+}
+
+footer > nav > ul:last-child {
+  display: flex;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  float: right;
+}
+
+footer > nav > ul:last-child > li {
+  margin-right: 10px;
+}
